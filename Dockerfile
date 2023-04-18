@@ -30,7 +30,7 @@ RUN sudo ACCEPT_EULA=Y apt-get install -y msodbcsql17
 RUN sudo apt install -y unixodbc-dev 
 
 # sudo apt install unixodbc-dev
-RUN sudo apt remove -y odbcinst1debian2
+# RUN sudo apt remove -y odbcinst1debian2
 RUN sudo apt install unixodbc=2.3.7 unixodbc-dev=2.3.7 odbcinst1debian2=2.3.7 odbcinst=2.3.7
 
 # for INTEL
